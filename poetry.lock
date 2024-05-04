@@ -1,0 +1,24 @@
+[[package]]
+name = "iced-x86"
+version = "1.21.0"
+description = "iced-x86 is a blazing fast and correct x86/x64 disassembler, assembler and instruction decoder"
+category = "main"
+optional = false
+python-versions = "~=3.8"
+
+[[package]]
+name = "pyelftools"
+version = "0.31"
+description = "Library for analyzing ELF files and DWARF debugging information"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "ddc87d7cb27f84db74eaa7e392a01c1246ccbefd9d71f49f596d91e453465ade"
+
+[metadata.files]
+iced-x86 = []
+pyelftools = []
